@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="DSTDIR" />
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="FilesGroup">
+            <Component Id="cmp7993404C67124703DD1DBBA97E6DEA14" Directory="DSTDIR" Guid="{97DB9109-A202-4C96-90F1-3E8EBCAEC642}">
+                <File Id="fil61B696E2310713C1393931DC9495D3CD" KeyPath="yes" Source="$(var.SrcDir)\ippac-8.0.dll" />
+            </Component>
+            <Component Id="cmp4E3E2BFFA4718ECF975F13A1F0CA66D9" Directory="DSTDIR" Guid="{FEBD9207-C9BC-4332-ABC7-CB7917BF89CF}">
+                <File Id="fil21F51C08599A500BCC938579677ACBA2" KeyPath="yes" Source="$(var.SrcDir)\ippace9-8.0.dll" />
+            </Component>
+            <Component Id="cmpC29E24305162AE9C3F66DDA4D0503BF3" Directory="DSTDIR" Guid="{11F0C500-8EF1-4F19-ABF0-AE0A14EA1760}">
+                <File Id="fil616AD579179D06B40406AE1147AA4299" KeyPath="yes" Source="$(var.SrcDir)\ippacl9-8.0.dll" />
+            </Component>
+            <Component Id="cmp1EAE6D858DB3D43F2EF5656D4E42779A" Directory="DSTDIR" Guid="{198F2CA9-EFF3-4E54-9FF0-20BCB6318ABA}">
+                <File Id="fil260802681341C831D525D0371C201757" KeyPath="yes" Source="$(var.SrcDir)\ippacm7-8.0.dll" />
+            </Component>
+            <Component Id="cmpC10A3ADD3655905D7670E33D90BA2621" Directory="DSTDIR" Guid="{B594B5C9-5546-4191-88CA-A1360D922F01}">
+                <File Id="fil706EA55AE40B5DBB6B59ECC5680B7CD4" KeyPath="yes" Source="$(var.SrcDir)\ippacmx-8.0.dll" />
+            </Component>
+            <Component Id="cmp8D4F3CB47CCFCB799F52A85A78B7B164" Directory="DSTDIR" Guid="{043051B9-2D87-4B80-9A6D-BB60A3536CE5}">
+                <File Id="filDA8501C80B8FFDA187D6DE6A21D60606" KeyPath="yes" Source="$(var.SrcDir)\ippacu8-8.0.dll" />
+            </Component>
+            <Component Id="cmp8B530885365FD3C82D578BAE78A45187" Directory="DSTDIR" Guid="{17D4598A-3739-46BF-B292-0F5A8A6197C3}">
+                <File Id="filD8DD790ACDFC81ACED0291F3254BB5EB" KeyPath="yes" Source="$(var.SrcDir)\ippacy8-8.0.dll" />
+            </Component>
+            <Component Id="cmp2F6F952D696348F23C50D46136B046DB" Directory="DSTDIR" Guid="{D66E5149-8A11-484E-B39D-5EDBA78BE8F4}">
+                <File Id="fil7D7D42048B702A8C98FEBA4A8CE179E4" KeyPath="yes" Source="$(var.SrcDir)\ippcc-8.0.dll" />
+            </Component>
+            <Component Id="cmp4BA130B9E3EA816B0C40637AA936798E" Directory="DSTDIR" Guid="{1ED0B26B-D431-46E0-ACAA-2C95A9311E66}">
+                <File Id="filB66ABD88E4C1589FFABEFD91A8B008BF" KeyPath="yes" Source="$(var.SrcDir)\ippcce9-8.0.dll" />
+            </Component>
+            <Component Id="cmpEDA1E69FD0F4FA398FA1ECF8D3D79827" Directory="DSTDIR" Guid="{1AB06546-95BB-45EE-969D-581EB7AF7509}">
+                <File Id="fil62AB0E4D2C440A7854AD9105E60CA0FE" KeyPath="yes" Source="$(var.SrcDir)\ippccl9-8.0.dll" />
+            </Component>
+            <Component Id="cmpD96373572C2A7198B09511A8509E8EF9" Directory="DSTDIR" Guid="{F3EDF8B4-7EA4-4258-A2FF-16C98AE02072}">
+                <File Id="filDD43004FBEE31CFD5C8044BF9866AADE" KeyPath="yes" Source="$(var.SrcDir)\ippccm7-8.0.dll" />
+            </Component>
+            <Component Id="cmpB8755A276EF9FC36EF2CBFA4DB3569E3" Directory="DSTDIR" Guid="{98A629F9-1EC4-46B4-9EFF-BD5C0ADD3797}">
+                <File Id="fil55E4307661010A319330B814EC8C1357" KeyPath="yes" Source="$(var.SrcDir)\ippccmx-8.0.dll" />
+            </Component>
+            <Component Id="cmp409AEE4E75976147CC75BAD05A77F238" Directory="DSTDIR" Guid="{F9ECBD8F-3FE1-4B01-AA25-8CD2854BA32C}">
+                <File Id="fil716308D13258FA1009E65E1FE3BB753B" KeyPath="yes" Source="$(var.SrcDir)\ippccu8-8.0.dll" />
+            </Component>
+            <Component Id="cmpC42E9E38CCCCDAF53F9C354F27727976" Directory="DSTDIR" Guid="{4F61D75D-6CBE-4D75-A472-70C69382809A}">
+                <File Id="fil0597265221D654F735EC199A7133E26D" KeyPath="yes" Source="$(var.SrcDir)\ippccy8-8.0.dll" />
+            </Component>
+            <Component Id="cmpA3B9EFB096B161FF8371D5341188692F" Directory="DSTDIR" Guid="{3778D1FA-B612-4E31-B22A-E9CF7BC0720B}">
+                <File Id="filA0DA47188AAA52D9F46AA3A6D22F27B7" KeyPath="yes" Source="$(var.SrcDir)\ippch-8.0.dll" />
+            </Component>
+            <Component Id="cmpB15D4B8ACADF483320AD108869BB1BFC" Directory="DSTDIR" Guid="{6208E0F0-5DF9-4512-A531-AD2F44089299}">
+                <File Id="filAD98197BD25576DC145F718430D28BE4" KeyPath="yes" Source="$(var.SrcDir)\ippche9-8.0.dll" />
+            </Component>
+            <Component Id="cmp1B6E03E2BE995EF0C89D0851DBEFD631" Directory="DSTDIR" Guid="{51CCE8D4-F811-451E-B96B-81444309E6D2}">
+                <File Id="fil4A5C3BEE38C169B12EB2C257C70B8397" KeyPath="yes" Source="$(var.SrcDir)\ippchl9-8.0.dll" />
+            </Component>
+            <Component Id="cmpFB198232E9878E41EE699D38855AE083" Directory="DSTDIR" Guid="{0F09C75C-6E32-44AB-B52B-B880704F9CF6}">
+                <File Id="filA019EB8122083C1D787540B6898A5166" KeyPath="yes" Source="$(var.SrcDir)\ippchm7-8.0.dll" />
+            </Component>
+            <Component Id="cmpD3032AFF581E105CF40BE36B6BEC3AB4" Directory="DSTDIR" Guid="{58F72A6A-82ED-43B0-806C-26BF94012220}">
+                <File Id="fil32138FBF4F0C0FA6F0AE088B7C6BDED5" KeyPath="yes" Source="$(var.SrcDir)\ippchmx-8.0.dll" />
+            </Component>
+            <Component Id="cmp26E31AC8467EB752CB975B16C7E79E44" Directory="DSTDIR" Guid="{A6CE77CC-296A-40D9-9E62-B37EDD0DCC67}">
+                <File Id="fil31C62815FFA3570B9230ECDEF5FF70FA" KeyPath="yes" Source="$(var.SrcDir)\ippchu8-8.0.dll" />
+            </Component>
+            <Component Id="cmpFD9AAE929C08D9D010E89A4814AFF7AF" Directory="DSTDIR" Guid="{132C3A73-1D01-460D-BA33-2DC974EDC5D7}">
+                <File Id="fil6C152AE571C955D2DFBC3806F7D74C10" KeyPath="yes" Source="$(var.SrcDir)\ippchy8-8.0.dll" />
+            </Component>
+            <Component Id="cmpB255CF182C54E001A44A839141BE04C2" Directory="DSTDIR" Guid="{E7A5526E-0DCA-4DD9-8637-879628FDC538}">
+                <File Id="filCBBD6D37425352222D832DE1002F6A72" KeyPath="yes" Source="$(var.SrcDir)\ippcore-8.0.dll" />
+            </Component>
+            <Component Id="cmp3433AA1FD2DAAC8F5D250A66D93761F3" Directory="DSTDIR" Guid="{5C52081E-0085-40F9-9161-014C67B76C36}">
+                <File Id="fil12B632A69958AAE8CC88799282E14A4B" KeyPath="yes" Source="$(var.SrcDir)\ippcv-8.0.dll" />
+            </Component>
+            <Component Id="cmp53BBD1105F2C9505E81E7193C34E72A4" Directory="DSTDIR" Guid="{2845A667-DC4B-4791-88B8-551E7FEDB7DE}">
+                <File Id="fil193B18AD3443FD44EED56999FCBBC374" KeyPath="yes" Source="$(var.SrcDir)\ippcve9-8.0.dll" />
+            </Component>
+            <Component Id="cmpFF6146213B0E10130F6ABCD841725770" Directory="DSTDIR" Guid="{B46EA504-DD0E-41DB-8259-8BA5F1E4A1D4}">
+                <File Id="fil6D3608F6CE05780A3F171B9B3B15C816" KeyPath="yes" Source="$(var.SrcDir)\ippcvl9-8.0.dll" />
+            </Component>
+            <Component Id="cmp623F1264E420444937BD79291D166976" Directory="DSTDIR" Guid="{CF325D40-D41A-4FB0-9950-0037DE7E0154}">
+                <File Id="filEB80B48B4ECA9A4709030DB978BB278B" KeyPath="yes" Source="$(var.SrcDir)\ippcvm7-8.0.dll" />
+            </Component>
+            <Component Id="cmp9B346341474BF4A6A0E102E9344E4DAA" Directory="DSTDIR" Guid="{E8F1269F-F53F-4B88-BA7A-3AB303ABCD66}">
+                <File Id="fil9970FB93677C0A1925024DF228C35969" KeyPath="yes" Source="$(var.SrcDir)\ippcvmx-8.0.dll" />
+            </Component>
+            <Component Id="cmpD5C1AFC672775ED2CDE9BE5D0039BE64" Directory="DSTDIR" Guid="{2ABA8662-99FF-48E1-89C7-05AB4197CD39}">
+                <File Id="filB2A2D947DC87605CDCF242D204A17F89" KeyPath="yes" Source="$(var.SrcDir)\ippcvu8-8.0.dll" />
+            </Component>
+            <Component Id="cmp64E36393DF059377DF22213C62692C64" Directory="DSTDIR" Guid="{D8281634-6E60-4AD5-AA32-31C36BEEBBC5}">
+                <File Id="filBDF8B454B5C1A1C9359E8AC42E1BE6B1" KeyPath="yes" Source="$(var.SrcDir)\ippcvy8-8.0.dll" />
+            </Component>
+            <Component Id="cmpAE2F3252E1CEA2E68B07480016F5D452" Directory="DSTDIR" Guid="{6995AB5D-9D4D-4EFC-9AB3-9C7272918B57}">
+                <File Id="fil43CFDD93E812FB79CA7B3DA8A8535642" KeyPath="yes" Source="$(var.SrcDir)\ippdc-8.0.dll" />
+            </Component>
+            <Component Id="cmp56A22C18EAC5A5F4339FC816B326AA93" Directory="DSTDIR" Guid="{B72EF76D-3FCE-4806-868E-832CE6667CDA}">
+                <File Id="fil24E5ACBC5289C87DAA7645C06F684E98" KeyPath="yes" Source="$(var.SrcDir)\ippdce9-8.0.dll" />
+            </Component>
+            <Component Id="cmpAB71CE05E1D84116A602E5F50583F7AE" Directory="DSTDIR" Guid="{E069C9D2-B2F8-4FEC-B7B5-B98439D4FA7D}">
+                <File Id="fil674F7295854B69474CEACE2C31819270" KeyPath="yes" Source="$(var.SrcDir)\ippdcl9-8.0.dll" />
+            </Component>
+            <Component Id="cmpC60639F75378713D7676FC0A7F2BC134" Directory="DSTDIR" Guid="{CB92E632-0EC5-4515-A2A0-C54DDAEDAC04}">
+                <File Id="fil8298F72E05F313975B119A9ACC65B0C4" KeyPath="yes" Source="$(var.SrcDir)\ippdcm7-8.0.dll" />
+            </Component>
+            <Component Id="cmpF0DB27EA055F435350F4A90DD711476F" Directory="DSTDIR" Guid="{C038A20E-7B71-46F1-9B7F-BD03691F2E48}">
+                <File Id="fil15C8D78EA62AAF084C55921909CA0778" KeyPath="yes" Source="$(var.SrcDir)\ippdcmx-8.0.dll" />
+            </Component>
+            <Component Id="cmp67DB174A4100FF49B27058BB16AECAB5" Directory="DSTDIR" Guid="{88C168FC-D759-4A38-91B9-F5484C460097}">
+                <File Id="filF22A37533F255C1BC176026A0856BCBB" KeyPath="yes" Source="$(var.SrcDir)\ippdcu8-8.0.dll" />
+            </Component>
+            <Component Id="cmp55A5480C098EBF1B0836D4365892BCBA" Directory="DSTDIR" Guid="{DCC99727-E76A-421A-B7FB-6ED1AF215F99}">
+                <File Id="fil037DBFD6362A156E89EAAA2C439F8801" KeyPath="yes" Source="$(var.SrcDir)\ippdcy8-8.0.dll" />
+            </Component>
+            <Component Id="cmp807B2C7279071E62B9F9D5D77487873F" Directory="DSTDIR" Guid="{883AA810-392F-40A2-8E0C-CDFE40AD773C}">
+                <File Id="fil4108CE5BA103A2D4BB22BF5E593C984E" KeyPath="yes" Source="$(var.SrcDir)\ippdi-8.0.dll" />
+            </Component>
+            <Component Id="cmp9D2013ED6300AF1122CC3721C9108554" Directory="DSTDIR" Guid="{14DA110D-0427-4538-AD48-51C32A780F17}">
+                <File Id="filEBE41F57D9DED06772CA2BA2BF359DB4" KeyPath="yes" Source="$(var.SrcDir)\ippdie9-8.0.dll" />
+            </Component>
+            <Component Id="cmp7970D5E9792BE263DC0C1BE64787BEE0" Directory="DSTDIR" Guid="{BF37E0E9-93EC-46FD-B9BE-3FAE1E325A5B}">
+                <File Id="filD9D656FF896A1D9FDA6AB0FE8100F3CC" KeyPath="yes" Source="$(var.SrcDir)\ippdil9-8.0.dll" />
+            </Component>
+            <Component Id="cmpA7B7E05BFEC050B18F2EFCCCCE0BB896" Directory="DSTDIR" Guid="{96DA350C-6A73-45B5-993C-B99488AF61F2}">
+                <File Id="fil14EF84F6C56BC6D8ACB862244DE77A88" KeyPath="yes" Source="$(var.SrcDir)\ippdim7-8.0.dll" />
+            </Component>
+            <Component Id="cmpF4B55A69BAD8656ADA33124B52D6645E" Directory="DSTDIR" Guid="{B54A37D5-553E-4004-A3BA-371C00C1D752}">
+                <File Id="fil4ABEA191106D8A61469BCBF7D2CB7CB9" KeyPath="yes" Source="$(var.SrcDir)\ippdimx-8.0.dll" />
+            </Component>
+            <Component Id="cmpFB4E4843AC1FBA4E7EF307622E5C52EB" Directory="DSTDIR" Guid="{B38EE2F9-3FC6-4BB3-839E-752F166CD492}">
+                <File Id="fil32F76F4C76EA50313BF02CF2DB0965BC" KeyPath="yes" Source="$(var.SrcDir)\ippdiu8-8.0.dll" />
+            </Component>
+            <Component Id="cmp163E4EE29475F318BAE651955E06E373" Directory="DSTDIR" Guid="{B9F244B7-1B60-4C7B-B63F-3EC791BEC642}">
+                <File Id="filE64EBB6D07CF8121713081490B6DD9C9" KeyPath="yes" Source="$(var.SrcDir)\ippdiy8-8.0.dll" />
+            </Component>
+            <Component Id="cmpA67A4E5FC5D4D686FAE8D4A07AEAFEB2" Directory="DSTDIR" Guid="{4AD2F312-2751-459D-BC7D-2781103F648A}">
+                <File Id="fil0732AD6A7D33CD02338158D6652296A7" KeyPath="yes" Source="$(var.SrcDir)\ippgen-8.0.dll" />
+            </Component>
+            <Component Id="cmpD45EC66E766B58A90D6F1CF64FF7484A" Directory="DSTDIR" Guid="{5705C823-4837-430B-85A3-2D692C29232C}">
+                <File Id="fil638F7B9A07173D64EC954A011FBF9799" KeyPath="yes" Source="$(var.SrcDir)\ippgene9-8.0.dll" />
+            </Component>
+            <Component Id="cmp3EC37306075D17D034503BDB27D08EB0" Directory="DSTDIR" Guid="{A174B6F0-5182-4327-AFA8-868FDBE0E2FE}">
+                <File Id="filB1371A811498D97CE329E890E8663E73" KeyPath="yes" Source="$(var.SrcDir)\ippgenl9-8.0.dll" />
+            </Component>
+            <Component Id="cmpB02EE8208ED6D418780114CC538719F9" Directory="DSTDIR" Guid="{0B1C233D-E404-4609-A956-A9A8A16D7929}">
+                <File Id="fil25AEFD9D4BEA396DEC177F554B210160" KeyPath="yes" Source="$(var.SrcDir)\ippgenm7-8.0.dll" />
+            </Component>
+            <Component Id="cmp09DAA459873A6AEE0970C04A250BE3D4" Directory="DSTDIR" Guid="{C0C20D38-99C7-4CC9-A8F3-B4208EBFB410}">
+                <File Id="filE0037B81D695D8A4F44B3E8A46AE4AB0" KeyPath="yes" Source="$(var.SrcDir)\ippgenmx-8.0.dll" />
+            </Component>
+            <Component Id="cmpA7F1847A0BA99D6306D0F6819DAE1455" Directory="DSTDIR" Guid="{6ADBCBCE-3991-470A-B8D6-84B773038502}">
+                <File Id="fil380D3899283644C86513413CFDC8018A" KeyPath="yes" Source="$(var.SrcDir)\ippgenu8-8.0.dll" />
+            </Component>
+            <Component Id="cmp085C75C84E832FEDA86E45733621AC5A" Directory="DSTDIR" Guid="{041F0B4B-5649-447B-967D-7D3688808185}">
+                <File Id="fil274626162E9371464452032858CA751E" KeyPath="yes" Source="$(var.SrcDir)\ippgeny8-8.0.dll" />
+            </Component>
+            <Component Id="cmp59FA211300E52F6449702C7031206E68" Directory="DSTDIR" Guid="{20A84DB1-2CE1-4312-B72E-E180CCC35B97}">
+                <File Id="fil9EB498923599B1E01DFD32844AF173DC" KeyPath="yes" Source="$(var.SrcDir)\ippi-8.0.dll" />
+            </Component>
+            <Component Id="cmp0AB284631D552D0AA3370A534C87FA46" Directory="DSTDIR" Guid="{0FBC06C2-B7C5-4559-876F-B26B135C44F5}">
+                <File Id="fil9D8D554BBCBAA83011196FA945FB0E02" KeyPath="yes" Source="$(var.SrcDir)\ippie9-8.0.dll" />
+            </Component>
+            <Component Id="cmpB182BF391F71EF64BCDD2AC2573FDBBA" Directory="DSTDIR" Guid="{6BA2D90A-3DAB-477D-BC55-9394C0C9F068}">
+                <File Id="fil58E1EA306A3BDECD4F48C893D33F6D15" KeyPath="yes" Source="$(var.SrcDir)\ippil9-8.0.dll" />
+            </Component>
+            <Component Id="cmpBF6528C3CD231D6B335416070177FAA9" Directory="DSTDIR" Guid="{5D8CEBE1-0714-42E2-93E3-D63649B51AD9}">
+                <File Id="filFCA526A7700A9ABC370551F24BBEDC68" KeyPath="yes" Source="$(var.SrcDir)\ippim7-8.0.dll" />
+            </Component>
+            <Component Id="cmpEEDA130ACDC5853347C003781202D83A" Directory="DSTDIR" Guid="{FED72181-978A-40AF-888B-02C238FFCFEC}">
+                <File Id="filB3AC285B60FF10FD6FDDBDDBC7C382AE" KeyPath="yes" Source="$(var.SrcDir)\ippimx-8.0.dll" />
+            </Component>
+            <Component Id="cmp9690312E0D9F4E89015A881BB602BCB3" Directory="DSTDIR" Guid="{3543360F-A3B3-4E81-968C-76E7EC592171}">
+                <File Id="fil87363E685046CBF7FFA1363E716B8048" KeyPath="yes" Source="$(var.SrcDir)\ippiu8-8.0.dll" />
+            </Component>
+            <Component Id="cmp33069C3CB473640B9AB813B00D47A278" Directory="DSTDIR" Guid="{E95B235F-E15B-49FA-9A14-D5D2642D5A71}">
+                <File Id="filDD1B411DEC8163A32ED5E212627AF81F" KeyPath="yes" Source="$(var.SrcDir)\ippiy8-8.0.dll" />
+            </Component>
+            <Component Id="cmp21799CD4321D5D014BF5812E375C82DB" Directory="DSTDIR" Guid="{17D108A6-F9CE-42CD-82AB-286859255903}">
+                <File Id="filB656BAD19CC1316EC84C747E9067C6F2" KeyPath="yes" Source="$(var.SrcDir)\ippj-8.0.dll" />
+            </Component>
+            <Component Id="cmp47A1F9F89CF665788ADA7FAD3F4F5354" Directory="DSTDIR" Guid="{73ED77C5-3800-4BC0-A544-C8448BC30931}">
+                <File Id="filFA4836BED85802A1A9CF3EBEDF04EF8B" KeyPath="yes" Source="$(var.SrcDir)\ippje9-8.0.dll" />
+            </Component>
+            <Component Id="cmp6E1698C2D8E6F9AB2DB7BA97407DE7A1" Directory="DSTDIR" Guid="{217F0345-48C5-4768-97FC-6081D22F53A6}">
+                <File Id="fil49AC6C8AACBC15ECEBC6CD3A757AF5DA" KeyPath="yes" Source="$(var.SrcDir)\ippjl9-8.0.dll" />
+            </Component>
+            <Component Id="cmpAE6B5C025BCFAD5D755FC933FCA92087" Directory="DSTDIR" Guid="{B6F89564-D1A5-44A9-AB5C-68C8F37D59AA}">
+                <File Id="fil28814D7B4302A9F26696C8C5EFBD56D1" KeyPath="yes" Source="$(var.SrcDir)\ippjm7-8.0.dll" />
+            </Component>
+            <Component Id="cmpFCBEE53981E18AC6EE5A92D863213BE2" Directory="DSTDIR" Guid="{08537A87-552D-49D8-A9B0-48296076D0D6}">
+                <File Id="fil1D07F8F7E90D0C8EE15F44A816B38DFD" KeyPath="yes" Source="$(var.SrcDir)\ippjmx-8.0.dll" />
+            </Component>
+            <Component Id="cmp9E6BBA704DADC3056C85A5A28C8CD349" Directory="DSTDIR" Guid="{B06DDA2D-6A6E-4EB8-BCC6-544F05364C1C}">
+                <File Id="fil8BBDF8F143874BD0631D7166309FDFCF" KeyPath="yes" Source="$(var.SrcDir)\ippju8-8.0.dll" />
+            </Component>
+            <Component Id="cmpA1891BBC5E5DAA76F917F31F7BCF2E55" Directory="DSTDIR" Guid="{F8D366A5-D28A-4885-B1DA-B2E849FA0C26}">
+                <File Id="fil014C58988C7E5CB175E1AF984DBD9184" KeyPath="yes" Source="$(var.SrcDir)\ippjy8-8.0.dll" />
+            </Component>
+            <Component Id="cmp1D6758E4E4F636687C34FD4529649222" Directory="DSTDIR" Guid="{95D38054-16AC-4F1D-A99E-07AEA3DF9198}">
+                <File Id="filCE9FED24BBB67E7749821812E92C2E79" KeyPath="yes" Source="$(var.SrcDir)\ippm-8.0.dll" />
+            </Component>
+            <Component Id="cmpF993C7ADE44B4937AFB619EAEAB080AE" Directory="DSTDIR" Guid="{0E214C54-A5B1-45F4-BD47-4C2EF40B6F7C}">
+                <File Id="fil899A94F93EC4288D40653BA80B1A9A28" KeyPath="yes" Source="$(var.SrcDir)\ippme9-8.0.dll" />
+            </Component>
+            <Component Id="cmp2F08AE5B5EC36DD0C48FFCD69B5796EA" Directory="DSTDIR" Guid="{8662F00B-52A9-42A2-9DF9-495DBAF801FD}">
+                <File Id="filA61F9A15E6D6D1A87A3F4570D9004A51" KeyPath="yes" Source="$(var.SrcDir)\ippml9-8.0.dll" />
+            </Component>
+            <Component Id="cmpC91DFD3705C2F6C492C91687E1C3B715" Directory="DSTDIR" Guid="{47284C56-D0D3-496F-A131-141339B57470}">
+                <File Id="fil06168774A9ACA6BF20C10BD9C7374134" KeyPath="yes" Source="$(var.SrcDir)\ippmm7-8.0.dll" />
+            </Component>
+            <Component Id="cmpF9B91958EA66DAF809FA8EB3B042FB98" Directory="DSTDIR" Guid="{662B4D60-3E04-4E76-90E2-A03F7623B0A6}">
+                <File Id="fil6B637F0F3A6D90822BB83A8956E03A76" KeyPath="yes" Source="$(var.SrcDir)\ippmmx-8.0.dll" />
+            </Component>
+            <Component Id="cmp578B8EC7A29EA045A8DDCF43E117DA24" Directory="DSTDIR" Guid="{1BD6DF65-88B2-437E-9DDB-132B16C56482}">
+                <File Id="filBCDA3C089F3B2E99B9A8792B6AD757D9" KeyPath="yes" Source="$(var.SrcDir)\ippmu8-8.0.dll" />
+            </Component>
+            <Component Id="cmp00D9AC8B189F56FF64FF9804B5A4BB6C" Directory="DSTDIR" Guid="{2A266EEA-10CA-497B-B638-D956C7C7DA79}">
+                <File Id="filBCF83B256AE13964FA4E886762067C1C" KeyPath="yes" Source="$(var.SrcDir)\ippmy8-8.0.dll" />
+            </Component>
+            <Component Id="cmp35827D16CA5B2BE79A5156F3A937737E" Directory="DSTDIR" Guid="{1FD3C983-760D-4661-8E14-E434C58CA00F}">
+                <File Id="fil6718576E97A5BB36340E51A0C3D51F32" KeyPath="yes" Source="$(var.SrcDir)\ippr-8.0.dll" />
+            </Component>
+            <Component Id="cmp23E8BCAB1BC7B6FE535EAB28E1B65A68" Directory="DSTDIR" Guid="{9B8B06A2-B5ED-4E47-897C-375BA93A1042}">
+                <File Id="fil8A5E5B6F4E2BC7A5FBBD30F76564EAF3" KeyPath="yes" Source="$(var.SrcDir)\ippre9-8.0.dll" />
+            </Component>
+            <Component Id="cmp2384CE2B612293131AB25402C27B3CB2" Directory="DSTDIR" Guid="{8AB60290-BE16-47D3-BC51-3816DBDB2751}">
+                <File Id="filD67A3868A62BC92D8DDCFF0F7DDDDDB1" KeyPath="yes" Source="$(var.SrcDir)\ipprl9-8.0.dll" />
+            </Component>
+            <Component Id="cmp0EF88A93CEEA31BAB097598B8A500E32" Directory="DSTDIR" Guid="{A10B98B8-2F9A-4F05-B472-DA49A84E347F}">
+                <File Id="fil60CD028263DC4D8B3B4B3B76E92ADF6A" KeyPath="yes" Source="$(var.SrcDir)\ipprm7-8.0.dll" />
+            </Component>
+            <Component Id="cmpCB4BC4CFFA1C5D6EAA33AC612633CB08" Directory="DSTDIR" Guid="{F3109721-9EA4-4C26-8AFA-4D310B11F988}">
+                <File Id="filF1C1D57053E183C06D20C0077C4759EC" KeyPath="yes" Source="$(var.SrcDir)\ipprmx-8.0.dll" />
+            </Component>
+            <Component Id="cmpF94FD16CC2EC2A193C2728C8407156CE" Directory="DSTDIR" Guid="{F195B593-BBA9-48DD-BD84-0582DC5B66F6}">
+                <File Id="fil21076079F9659EFD3A520CB305AE3658" KeyPath="yes" Source="$(var.SrcDir)\ippru8-8.0.dll" />
+            </Component>
+            <Component Id="cmpB19EE60F50FB88386FA6EAB4F39A7929" Directory="DSTDIR" Guid="{6FC8A8F1-ED91-4B59-A88E-EBE6D3EFA217}">
+                <File Id="filB0705ED73218C4BB072FD86F6A023AC0" KeyPath="yes" Source="$(var.SrcDir)\ippry8-8.0.dll" />
+            </Component>
+            <Component Id="cmp26EEC0DD2FEC71AB362B3E1CE69EA14D" Directory="DSTDIR" Guid="{D0F46E32-983E-4D8F-8DF6-388627E27F3E}">
+                <File Id="filEF0297B9C194B7B07816878879B5D8CA" KeyPath="yes" Source="$(var.SrcDir)\ipps-8.0.dll" />
+            </Component>
+            <Component Id="cmp79EEE3519D542F19B94DD73FA29E256C" Directory="DSTDIR" Guid="{C06B27D7-3C14-48D9-AC40-F62825B93F8E}">
+                <File Id="filFE3FC9C0E2BA3DB13CA1BBFDA63FBFA1" KeyPath="yes" Source="$(var.SrcDir)\ippsc-8.0.dll" />
+            </Component>
+            <Component Id="cmpD00AD84E1DA504D6890B3ED5DE9BB4A1" Directory="DSTDIR" Guid="{44E3F622-35BA-4BD8-B896-7DF8AEBE13B9}">
+                <File Id="fil0E7CE87D5B9F27825494CFE10310DDB9" KeyPath="yes" Source="$(var.SrcDir)\ippsce9-8.0.dll" />
+            </Component>
+            <Component Id="cmpEDE4A83B5D9E04A7FD69B00F7A1A52FA" Directory="DSTDIR" Guid="{E0928643-4A45-4AC1-A5A7-C470A8D2185D}">
+                <File Id="filDD8772D1DFBF1CFF1FDBAF172BFF82AC" KeyPath="yes" Source="$(var.SrcDir)\ippscl9-8.0.dll" />
+            </Component>
+            <Component Id="cmp4A746AAC037EFABE46495C4173CF4001" Directory="DSTDIR" Guid="{C80DF52D-17F5-46B9-83DD-CEEB75715854}">
+                <File Id="fil6257D79D62227240E4E74A0CDE6CA8B3" KeyPath="yes" Source="$(var.SrcDir)\ippscm7-8.0.dll" />
+            </Component>
+            <Component Id="cmp69F09D49D7F658A18F2260CC89634A65" Directory="DSTDIR" Guid="{FEF66C93-8CB5-448D-A385-C1AE5DEBAAAA}">
+                <File Id="filC5061D5DAE8D2D346BD4DAA488548A5F" KeyPath="yes" Source="$(var.SrcDir)\ippscmx-8.0.dll" />
+            </Component>
+            <Component Id="cmpC8073FF75EA3142F6F49123B4FE118AF" Directory="DSTDIR" Guid="{4C0D8CAB-38A9-45B8-92FE-BE1917DA5C60}">
+                <File Id="fil7B5F8C5C0249257C2F0938DC8CECC3D0" KeyPath="yes" Source="$(var.SrcDir)\ippscu8-8.0.dll" />
+            </Component>
+            <Component Id="cmpC1596A5C2E2940BDA22A791947325815" Directory="DSTDIR" Guid="{768537CB-44A6-4F0A-9745-13CACD1A6952}">
+                <File Id="fil2C6C5BEB5D4C084CD172D9F1067C6135" KeyPath="yes" Source="$(var.SrcDir)\ippscy8-8.0.dll" />
+            </Component>
+            <Component Id="cmpF4A54818CEEBF5635C318D857A8E0691" Directory="DSTDIR" Guid="{70FE3907-CDF2-4A90-9E35-B2F8C71CC3A4}">
+                <File Id="filEFA2E6A2B0C3361DE4DB5C8F2C21714B" KeyPath="yes" Source="$(var.SrcDir)\ippse9-8.0.dll" />
+            </Component>
+            <Component Id="cmp585C99E39ADBC0E9A8682905A6D9E42D" Directory="DSTDIR" Guid="{B7A3C231-7319-469E-BD3D-F767CE32C538}">
+                <File Id="fil639E98728AFD7C206437210623590FC5" KeyPath="yes" Source="$(var.SrcDir)\ippsl9-8.0.dll" />
+            </Component>
+            <Component Id="cmp81127248310A867ECF1E6F7F2E655195" Directory="DSTDIR" Guid="{44BA2FC7-DDEF-465B-9EA7-900E1F330C21}">
+                <File Id="fil0437F1740238E0DA60483D49F7CCEA17" KeyPath="yes" Source="$(var.SrcDir)\ippsm7-8.0.dll" />
+            </Component>
+            <Component Id="cmp19ED5E7367973BECB98B7F3E32A271CF" Directory="DSTDIR" Guid="{15EFA33D-0AC0-4D90-9AA9-9780231128D1}">
+                <File Id="filF5BCD195C4BC29EABCA4561A5FF68980" KeyPath="yes" Source="$(var.SrcDir)\ippsmx-8.0.dll" />
+            </Component>
+            <Component Id="cmpE4955E4486ECB180523AADADDD378657" Directory="DSTDIR" Guid="{B5AB2C20-5D04-4BA8-84F7-5B24A2438F51}">
+                <File Id="fil8C71DB47DBA440EB138046C295981F25" KeyPath="yes" Source="$(var.SrcDir)\ippsu8-8.0.dll" />
+            </Component>
+            <Component Id="cmp9FAADF2780CBFD70229FF19638A7FB4E" Directory="DSTDIR" Guid="{395D0F56-43FF-420F-8D16-2DD321688B13}">
+                <File Id="filC26C5D2105E82C6E08C31CB8C9F77AD0" KeyPath="yes" Source="$(var.SrcDir)\ippsy8-8.0.dll" />
+            </Component>
+            <Component Id="cmpA2F64A0FEC83FE4FE8875C20047786E8" Directory="DSTDIR" Guid="{0A5840F3-4671-4F40-AA4F-4793B7B65A95}">
+                <File Id="filE990E860039D0C8D071D5BFA7C1D658C" KeyPath="yes" Source="$(var.SrcDir)\ippvc-8.0.dll" />
+            </Component>
+            <Component Id="cmpF4B72C2B46796041D1BD9E3F3219BBF2" Directory="DSTDIR" Guid="{A85E021E-D298-411A-9FE5-BEA16BA56697}">
+                <File Id="filCC6B805A0AE1A5B878F94B4F786AF407" KeyPath="yes" Source="$(var.SrcDir)\ippvce9-8.0.dll" />
+            </Component>
+            <Component Id="cmp727D0A0BE3554A0812C59A4FB8C31C9A" Directory="DSTDIR" Guid="{21B51942-EB12-4D39-A349-76CD85C2F2D8}">
+                <File Id="fil05D491E11EEB892095B542E1CEC1ED05" KeyPath="yes" Source="$(var.SrcDir)\ippvcl9-8.0.dll" />
+            </Component>
+            <Component Id="cmpEF0169F94AC4929F226BCD9B29AE277F" Directory="DSTDIR" Guid="{C35BF4D5-F2F0-4928-AC2D-97239C9D6575}">
+                <File Id="filDC2109D32E10A30F34E0383250C6F835" KeyPath="yes" Source="$(var.SrcDir)\ippvcm7-8.0.dll" />
+            </Component>
+            <Component Id="cmp2D14D0857AC2DD57C89B1176542494F9" Directory="DSTDIR" Guid="{29D88ADB-B806-462C-BE41-F937CD857935}">
+                <File Id="filC60A5B98F7624FC4F38E7166082F419C" KeyPath="yes" Source="$(var.SrcDir)\ippvcmx-8.0.dll" />
+            </Component>
+            <Component Id="cmp9997E6B4B2DCDEE6C5F250905C6A8C0F" Directory="DSTDIR" Guid="{6C51A02A-84BD-436F-A9E0-623DEEF16C2B}">
+                <File Id="fil2D4836E6FE55FB87C47CEA6F8BDA90E3" KeyPath="yes" Source="$(var.SrcDir)\ippvcu8-8.0.dll" />
+            </Component>
+            <Component Id="cmp91D45FBE244E35A8F388518D73964E3C" Directory="DSTDIR" Guid="{6364C5BF-054E-4222-966C-D6B4C20944AC}">
+                <File Id="filD56BD8786872EC8839142E28F14C64E3" KeyPath="yes" Source="$(var.SrcDir)\ippvcy8-8.0.dll" />
+            </Component>
+            <Component Id="cmp17B7544AD02DF36D99B475C234F9B034" Directory="DSTDIR" Guid="{67C40A04-87A2-4F42-99BF-5EC352D0941D}">
+                <File Id="filF01CE3C4AC2A08EA04D82563A292224F" KeyPath="yes" Source="$(var.SrcDir)\ippvm-8.0.dll" />
+            </Component>
+            <Component Id="cmp17E1D9DC3A1F7660399BB227F4DE1ADD" Directory="DSTDIR" Guid="{8C9461FC-0DA0-4A29-85B3-3E66B38DC3DF}">
+                <File Id="fil949F19A90504BCEAC6CCF086678CCA01" KeyPath="yes" Source="$(var.SrcDir)\ippvme9-8.0.dll" />
+            </Component>
+            <Component Id="cmpC165FF0F0E0203535CE61523D63B738E" Directory="DSTDIR" Guid="{DC167213-A751-48D7-8FA0-0B80126BDB52}">
+                <File Id="fil128F5DC4DC83158F4F4404AB98F9776A" KeyPath="yes" Source="$(var.SrcDir)\ippvml9-8.0.dll" />
+            </Component>
+            <Component Id="cmpA0408E5A6221AB7B6394140794A8DFA9" Directory="DSTDIR" Guid="{C7F89B1F-16E5-46DF-A044-C708D970307F}">
+                <File Id="filD861026ABEDEB5CF841A99F5BD81EEAE" KeyPath="yes" Source="$(var.SrcDir)\ippvmm7-8.0.dll" />
+            </Component>
+            <Component Id="cmpC5C6C9F1BF23ECBFE0169A1AC166D73B" Directory="DSTDIR" Guid="{AB245646-6A49-4675-9845-B811A6C93B50}">
+                <File Id="fil064E3F930F89D1125E7F792254C7C0FF" KeyPath="yes" Source="$(var.SrcDir)\ippvmmx-8.0.dll" />
+            </Component>
+            <Component Id="cmp08C536B9CDD6088AB188191020C14908" Directory="DSTDIR" Guid="{F8793169-4378-4E5C-9B44-C50759D61249}">
+                <File Id="filE85E3F4BD3130EF45342A5F4F170A2D6" KeyPath="yes" Source="$(var.SrcDir)\ippvmu8-8.0.dll" />
+            </Component>
+            <Component Id="cmpDB1C0E310E65F12D1A21A9ABC1CA9F16" Directory="DSTDIR" Guid="{4AD768EF-3F3F-4C2F-A282-882C78C1A55E}">
+                <File Id="fil25EBDE9899592859CD43A9F75FC695FF" KeyPath="yes" Source="$(var.SrcDir)\ippvmy8-8.0.dll" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+</Wix>

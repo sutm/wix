@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*" UpgradeCode="4ACF0D2D-5A6D-400A-AC46-1A2823E5B010"
+           Name="GIP80" Version="1.0.0" Manufacturer="STI" Language="1033">
+    <Package InstallerVersion="100" Compressed="yes" Comments="Windows Installer Package"/>
+    <Media Id="1" Cabinet="product.cab" EmbedCab="yes"/>
+
+    <!-- Include the UI stuff -->
+    <UIRef Id="MyCustomUI" />
+
+    <!-- Specify reinstallation will completely remove any previous version -->
+    <!-- Upgrade.Id must be the same as Product.UpgradCode -->
+    <Property Id="PREVIOUSFOUND" Secure="yes" />
+    <Upgrade Id="4ACF0D2D-5A6D-400A-AC46-1A2823E5B010">
+      <UpgradeVersion OnlyDetect="no" Property="PREVIOUSFOUND" 
+        Minimum="0.0.0" IncludeMinimum="yes" />
+    </Upgrade>
+
+    <!-- Remove any existing products -->
+    <InstallExecuteSequence>
+      <RemoveExistingProducts After="InstallValidate" />
+    </InstallExecuteSequence>
+
+    <!--
+    <?define SrcDir = "d:\temp\source" ?>
+    -->
+    
+    <!-- Define the directory structure where we want to install to -->
+    <Property Id="ROOTDRIVE" Value="D:\" />
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="STILIB" Name="STILib">
+        <Directory Id="DSTDIR" Name="GIP80"/>
+      </Directory>
+    </Directory>
+
+    <DirectoryRef Id="DSTDIR">
+      <!-- Add files to installer package -->
+      <!--
+      <Component Id="myinstaller.exe" Guid="158112A1-94BD-41D9-9861-64D638CEE543">
+        <File Id="myinstaller.exe" Source="$(var.SrcDir)\MyInstaller.exe" KeyPath="yes" Checksum="yes"/>
+      </Component>
+      -->
+        
+      <!-- Add installed path to system path -->
+      <Component Id="SystemPath" Guid="7D024530-CA9C-47B1-A604-D8662A7987D7">
+        <Environment Id="PATH" Name="Path" Value="[DSTDIR]" Permanent="no" Part="last" Action="set" System="yes" />
+        <CreateFolder/>
+      </Component>
+    </DirectoryRef>
+    
+    <!-- Tell WiX to do it's work -->
+    <Feature Id="MainApplication" Title="Main Application" Level="1">
+      <ComponentGroupRef Id="FilesGroup" />
+      <ComponentRef Id="SystemPath" />
+    </Feature>
+    
+  </Product>
+</Wix>
